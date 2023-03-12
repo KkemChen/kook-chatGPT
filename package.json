@@ -1,0 +1,44 @@
+{
+  "name": "kook-chatgpt",
+  "version": "0.1.0",
+  "description": "Chat with chatGPT",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --nolazy -r ts-node/register -r tsconfig-paths/register src/index.ts",
+    "pm2": "pm2 start src/pm2-windows.js --name='kook-chatGPT'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fi6/kbotify-template.git"
+  },
+  "keywords": [
+    "kbotify",
+    "kaiheila",
+    "bot"
+  ],
+  "author": "Hexona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hexona69/kook-chatGPT/issues"
+  },
+  "homepage": "https://github.com/Hexona69/kook-chatGPT#readme",
+  "dependencies": {
+    "chatgpt": "^5.0.4",
+    "delay": "^5.0.0",
+    "kasumi.js": "^0.1.13",
+    "kbotify": "^0.2.5",
+    "ts-node": "^10.9.1",
+    "ts-register": "^0.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.9.4"
+  }
+}
