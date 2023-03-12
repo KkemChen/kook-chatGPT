@@ -6,7 +6,7 @@
 
 ---
 
-* 使用方法
+## 使用方法
 
   1. 进入src/configs目录下，修改auth.ts文件，填入kook机器人token和openai key
 
