@@ -71,7 +71,7 @@ export async function run(session: BaseSession, prefix: boolean): Promise<void> 
                     "elements": [
                         {
                             "type": "image",
-                            "src": "https://img.kaiheila.cn/assets/2022-12/g6BYoMU88i0f60f4.png"
+                            "src": "https://img.kookapp.cn/assets/2023-03/iNYyZNQk7704g04g.png"
                         },
                         {
                             "type": "plain-text",
